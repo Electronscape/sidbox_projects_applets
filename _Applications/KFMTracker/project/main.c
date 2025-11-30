@@ -7,6 +7,8 @@
 
 #include "filerequest.h"
 
+// Hello GitHub user: this is just a test (Github is confusing at first isn't it!!! )
+
 static uint8_t hwbutts;		// buffer for hardware button presses
 static int mouseX, mouseY;
 static bool_t ExitKFMTracker = false;
