@@ -11,7 +11,7 @@ Archive member included to satisfy reference by file (symbol)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-errno.o)
                               compiled/syscalls.o (__errno)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memcpy-stub.o)
-                              compiled/project/fileformat.o (memcpy)
+                              compiled/project/filerequest.o (memcpy)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memmove.o)
                               compiled/project/filerequest.o (memmove)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-qsort.o)
@@ -19,7 +19,7 @@ Archive member included to satisfy reference by file (symbol)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-snprintf.o)
                               compiled/project/player.o (snprintf)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-sprintf.o)
-                              compiled/project/fileformat.o (sprintf)
+                              compiled/project/trackertracks.o (sprintf)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-stpcpy.o)
                               compiled/project/filerequest.o (stpcpy)
 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-strcasecmp.o)
@@ -87,7 +87,7 @@ temp8               0x1               compiled/project/fileformat.o
 __lock___malloc_recursive_mutex
                     0x1               /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
 msTime              0x4               compiled/project/player.o
-CONFIGSCREENMODE    0x1               compiled/project/debugtest.o
+CONFIGSCREENMODE    0x1               compiled/project/filerequest.o
 ui_events           0x4               compiled/project/trackerui.o
 original_drawbuffer
                     0x4               compiled/apis.o
@@ -240,55 +240,9 @@ Discarded input sections
  .data.heap_base
                 0x0000000000000000        0x4 compiled/syscalls.o
  COMMON         0x0000000000000000        0x4 compiled/syscalls.o
- .text          0x0000000000000000        0x0 compiled/project/debugtest.o
- .data          0x0000000000000000        0x0 compiled/project/debugtest.o
- .bss           0x0000000000000000        0x0 compiled/project/debugtest.o
- .rodata.demoNotes
-                0x0000000000000000       0x40 compiled/project/debugtest.o
- .rodata.demoNotes2
-                0x0000000000000000       0x40 compiled/project/debugtest.o
- .rodata.demoNotesSampleID1
-                0x0000000000000000       0x40 compiled/project/debugtest.o
- .rodata.demoNotesSampleID2
-                0x0000000000000000       0x40 compiled/project/debugtest.o
- .rodata.dk01   0x0000000000000000      0x82e compiled/project/debugtest.o
- .rodata.dk02   0x0000000000000000      0x8aa compiled/project/debugtest.o
- .rodata.dk03   0x0000000000000000      0xa9e compiled/project/debugtest.o
- .rodata.sample2Test
-                0x0000000000000000     0x219c compiled/project/debugtest.o
- .comment       0x0000000000000000       0x54 compiled/project/debugtest.o
- .ARM.attributes
-                0x0000000000000000       0x33 compiled/project/debugtest.o
- COMMON         0x0000000000000000        0x1 compiled/project/debugtest.o
- .text          0x0000000000000000        0x0 compiled/project/fileformat.o
- .data          0x0000000000000000        0x0 compiled/project/fileformat.o
- .bss           0x0000000000000000        0x0 compiled/project/fileformat.o
- .text.InitFileContainer
-                0x0000000000000000        0x4 compiled/project/fileformat.o
  .text          0x0000000000000000        0x0 compiled/project/filerequest.o
  .data          0x0000000000000000        0x0 compiled/project/filerequest.o
  .bss           0x0000000000000000        0x0 compiled/project/filerequest.o
- .text          0x0000000000000000        0x0 compiled/project/font.o
- .data          0x0000000000000000        0x0 compiled/project/font.o
- .bss           0x0000000000000000        0x0 compiled/project/font.o
- .text          0x0000000000000000        0x0 compiled/project/main.o
- .data          0x0000000000000000        0x0 compiled/project/main.o
- .bss           0x0000000000000000        0x0 compiled/project/main.o
- .text.setFont  0x0000000000000000       0x34 compiled/project/main.o
- .text.GetKeyIn
-                0x0000000000000000       0x40 compiled/project/main.o
- .text.ShowBufferForce
-                0x0000000000000000       0x34 compiled/project/main.o
- .text          0x0000000000000000        0x0 compiled/project/patternbank.o
- .data          0x0000000000000000        0x0 compiled/project/patternbank.o
- .bss           0x0000000000000000        0x0 compiled/project/patternbank.o
- .text.initPatternTest
-                0x0000000000000000       0x88 compiled/project/patternbank.o
- .data.patternstotal
-                0x0000000000000000        0x4 compiled/project/patternbank.o
- .comment       0x0000000000000000       0x54 compiled/project/patternbank.o
- .ARM.attributes
-                0x0000000000000000       0x2e compiled/project/patternbank.o
  .text          0x0000000000000000        0x0 compiled/project/player.o
  .data          0x0000000000000000        0x0 compiled/project/player.o
  .bss           0x0000000000000000        0x0 compiled/project/player.o
@@ -312,6 +266,36 @@ Discarded input sections
                 0x0000000000000000       0x10 compiled/project/player.o
  .text.KFMReplayChannel
                 0x0000000000000000       0x30 compiled/project/player.o
+ .text          0x0000000000000000        0x0 compiled/project/patternbank.o
+ .data          0x0000000000000000        0x0 compiled/project/patternbank.o
+ .bss           0x0000000000000000        0x0 compiled/project/patternbank.o
+ .text.initPatternTest
+                0x0000000000000000       0x88 compiled/project/patternbank.o
+ .data.patternstotal
+                0x0000000000000000        0x4 compiled/project/patternbank.o
+ .comment       0x0000000000000000       0x54 compiled/project/patternbank.o
+ .ARM.attributes
+                0x0000000000000000       0x2e compiled/project/patternbank.o
+ COMMON         0x0000000000000000        0x0 compiled/project/patternbank.o
+ .text          0x0000000000000000        0x0 compiled/project/debugtest.o
+ .data          0x0000000000000000        0x0 compiled/project/debugtest.o
+ .bss           0x0000000000000000        0x0 compiled/project/debugtest.o
+ .rodata.demoNotes
+                0x0000000000000000       0x40 compiled/project/debugtest.o
+ .rodata.demoNotes2
+                0x0000000000000000       0x40 compiled/project/debugtest.o
+ .rodata.demoNotesSampleID1
+                0x0000000000000000       0x40 compiled/project/debugtest.o
+ .rodata.demoNotesSampleID2
+                0x0000000000000000       0x40 compiled/project/debugtest.o
+ .rodata.dk01   0x0000000000000000      0x82e compiled/project/debugtest.o
+ .rodata.dk02   0x0000000000000000      0x8aa compiled/project/debugtest.o
+ .rodata.dk03   0x0000000000000000      0xa9e compiled/project/debugtest.o
+ .rodata.sample2Test
+                0x0000000000000000     0x219c compiled/project/debugtest.o
+ .comment       0x0000000000000000       0x54 compiled/project/debugtest.o
+ .ARM.attributes
+                0x0000000000000000       0x33 compiled/project/debugtest.o
  .text          0x0000000000000000        0x0 compiled/project/synthmaster.o
  .data          0x0000000000000000        0x0 compiled/project/synthmaster.o
  .bss           0x0000000000000000        0x0 compiled/project/synthmaster.o
@@ -320,6 +304,22 @@ Discarded input sections
  .text          0x0000000000000000        0x0 compiled/project/trackertracks.o
  .data          0x0000000000000000        0x0 compiled/project/trackertracks.o
  .bss           0x0000000000000000        0x0 compiled/project/trackertracks.o
+ .text          0x0000000000000000        0x0 compiled/project/font.o
+ .data          0x0000000000000000        0x0 compiled/project/font.o
+ .bss           0x0000000000000000        0x0 compiled/project/font.o
+ .text          0x0000000000000000        0x0 compiled/project/fileformat.o
+ .data          0x0000000000000000        0x0 compiled/project/fileformat.o
+ .bss           0x0000000000000000        0x0 compiled/project/fileformat.o
+ .text.InitFileContainer
+                0x0000000000000000        0x4 compiled/project/fileformat.o
+ .text          0x0000000000000000        0x0 compiled/project/main.o
+ .data          0x0000000000000000        0x0 compiled/project/main.o
+ .bss           0x0000000000000000        0x0 compiled/project/main.o
+ .text.setFont  0x0000000000000000       0x34 compiled/project/main.o
+ .text.GetKeyIn
+                0x0000000000000000       0x40 compiled/project/main.o
+ .text.ShowBufferForce
+                0x0000000000000000       0x34 compiled/project/main.o
  .text          0x0000000000000000        0x0 compiled/project/trackerui.o
  .data          0x0000000000000000        0x0 compiled/project/trackerui.o
  .bss           0x0000000000000000        0x0 compiled/project/trackerui.o
@@ -465,15 +465,15 @@ LOAD compiled/api_kbsupport.o
 LOAD compiled/api_kfm.o
 LOAD compiled/apis.o
 LOAD compiled/syscalls.o
-LOAD compiled/project/debugtest.o
-LOAD compiled/project/fileformat.o
 LOAD compiled/project/filerequest.o
-LOAD compiled/project/font.o
-LOAD compiled/project/main.o
-LOAD compiled/project/patternbank.o
 LOAD compiled/project/player.o
+LOAD compiled/project/patternbank.o
+LOAD compiled/project/debugtest.o
 LOAD compiled/project/synthmaster.o
 LOAD compiled/project/trackertracks.o
+LOAD compiled/project/font.o
+LOAD compiled/project/fileformat.o
+LOAD compiled/project/main.o
 LOAD compiled/project/trackerui.o
 START GROUP
 LOAD /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+dp/hard/libgcc.a
@@ -563,128 +563,128 @@ LOAD /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
                 0x00000000d000024c                StopChannel
  .text._sbrk    0x00000000d0000264       0x1c compiled/syscalls.o
                 0x00000000d0000264                _sbrk
- .text.LoadTestSong
-                0x00000000d0000280      0x2b0 compiled/project/fileformat.o
-                0x00000000d0000280                LoadTestSong
- .text.SaveTestSong
-                0x00000000d0000530      0x280 compiled/project/fileformat.o
-                0x00000000d0000530                SaveTestSong
  .text.compare_entries
-                0x00000000d00007b0       0x1c compiled/project/filerequest.o
-                0x00000000d00007b0                compare_entries
+                0x00000000d0000280       0x1c compiled/project/filerequest.o
+                0x00000000d0000280                compare_entries
  .text.FileRequestFileStringUpdater.part.0
-                0x00000000d00007cc       0xa0 compiled/project/filerequest.o
+                0x00000000d000029c       0xa0 compiled/project/filerequest.o
  .text.FileRequestFileStringUpdater
-                0x00000000d000086c       0x14 compiled/project/filerequest.o
-                0x00000000d000086c                FileRequestFileStringUpdater
+                0x00000000d000033c       0x14 compiled/project/filerequest.o
+                0x00000000d000033c                FileRequestFileStringUpdater
  .text.FileRequestFileStringInjector
-                0x00000000d0000880       0x44 compiled/project/filerequest.o
-                0x00000000d0000880                FileRequestFileStringInjector
+                0x00000000d0000350       0x44 compiled/project/filerequest.o
+                0x00000000d0000350                FileRequestFileStringInjector
  .text.ShowFilesListed
-                0x00000000d00008c4      0x280 compiled/project/filerequest.o
-                0x00000000d00008c4                ShowFilesListed
+                0x00000000d0000394      0x280 compiled/project/filerequest.o
+                0x00000000d0000394                ShowFilesListed
  .text.ScrollFileListDirection
-                0x00000000d0000b44       0x54 compiled/project/filerequest.o
-                0x00000000d0000b44                ScrollFileListDirection
+                0x00000000d0000614       0x54 compiled/project/filerequest.o
+                0x00000000d0000614                ScrollFileListDirection
  .text.FileListedSelect
-                0x00000000d0000b98       0xa4 compiled/project/filerequest.o
-                0x00000000d0000b98                FileListedSelect
+                0x00000000d0000668       0xa4 compiled/project/filerequest.o
+                0x00000000d0000668                FileListedSelect
  .text.ShowFileRequest
-                0x00000000d0000c3c      0x2d0 compiled/project/filerequest.o
-                0x00000000d0000c3c                ShowFileRequest
+                0x00000000d000070c      0x2d0 compiled/project/filerequest.o
+                0x00000000d000070c                ShowFileRequest
  .text.CloseFileRequest
-                0x00000000d0000f0c       0x18 compiled/project/filerequest.o
-                0x00000000d0000f0c                CloseFileRequest
+                0x00000000d00009dc       0x18 compiled/project/filerequest.o
+                0x00000000d00009dc                CloseFileRequest
  .text.CheckDirectorySelect
-                0x00000000d0000f24       0x80 compiled/project/filerequest.o
-                0x00000000d0000f24                CheckDirectorySelect
+                0x00000000d00009f4       0x80 compiled/project/filerequest.o
+                0x00000000d00009f4                CheckDirectorySelect
  .text.ParentDirectory
-                0x00000000d0000fa4       0x24 compiled/project/filerequest.o
-                0x00000000d0000fa4                ParentDirectory
- .text.SaveKMD  0x00000000d0000fc8       0x24 compiled/project/filerequest.o
-                0x00000000d0000fc8                SaveKMD
- .text.LoadKMD  0x00000000d0000fec       0x24 compiled/project/filerequest.o
-                0x00000000d0000fec                LoadKMD
- .text.KB_ISR2  0x00000000d0001010      0x408 compiled/project/main.o
-                0x00000000d0001010                KB_ISR2
- .text.startup.main
-                0x00000000d0001418     0x1270 compiled/project/main.o
-                0x00000000d0001418                main
+                0x00000000d0000a74       0x24 compiled/project/filerequest.o
+                0x00000000d0000a74                ParentDirectory
+ .text.SaveKMD  0x00000000d0000a98       0x24 compiled/project/filerequest.o
+                0x00000000d0000a98                SaveKMD
+ .text.LoadKMD  0x00000000d0000abc       0x24 compiled/project/filerequest.o
+                0x00000000d0000abc                LoadKMD
  .text.getNoteLabel
-                0x00000000d0002688       0x30 compiled/project/player.o
-                0x00000000d0002688                getNoteLabel
+                0x00000000d0000ae0       0x30 compiled/project/player.o
+                0x00000000d0000ae0                getNoteLabel
  .text.initNoteLabels
-                0x00000000d00026b8       0x74 compiled/project/player.o
-                0x00000000d00026b8                initNoteLabels
+                0x00000000d0000b10       0x74 compiled/project/player.o
+                0x00000000d0000b10                initNoteLabels
  .text.ClearSong
-                0x00000000d000272c      0x120 compiled/project/player.o
-                0x00000000d000272c                ClearSong
+                0x00000000d0000b84      0x120 compiled/project/player.o
+                0x00000000d0000b84                ClearSong
  .text.setTempoSpeed
-                0x00000000d000284c       0x6c compiled/project/player.o
-                0x00000000d000284c                setTempoSpeed
+                0x00000000d0000ca4       0x6c compiled/project/player.o
+                0x00000000d0000ca4                setTempoSpeed
  .text.StartTimer
-                0x00000000d00028b8        0xc compiled/project/player.o
-                0x00000000d00028b8                StartTimer
+                0x00000000d0000d10        0xc compiled/project/player.o
+                0x00000000d0000d10                StartTimer
  .text.StopTimer
-                0x00000000d00028c4        0xc compiled/project/player.o
-                0x00000000d00028c4                StopTimer
+                0x00000000d0000d1c        0xc compiled/project/player.o
+                0x00000000d0000d1c                StopTimer
  .text.ShowSongLength
-                0x00000000d00028d0       0x28 compiled/project/player.o
-                0x00000000d00028d0                ShowSongLength
+                0x00000000d0000d28       0x28 compiled/project/player.o
+                0x00000000d0000d28                ShowSongLength
  .text.SetSongPosition
-                0x00000000d00028f8       0x58 compiled/project/player.o
-                0x00000000d00028f8                SetSongPosition
+                0x00000000d0000d50       0x58 compiled/project/player.o
+                0x00000000d0000d50                SetSongPosition
  .text.SetCurrentPatternSelect
-                0x00000000d0002950       0x40 compiled/project/player.o
-                0x00000000d0002950                SetCurrentPatternSelect
+                0x00000000d0000da8       0x40 compiled/project/player.o
+                0x00000000d0000da8                SetCurrentPatternSelect
  .text.SetSongLength
-                0x00000000d0002990       0x2c compiled/project/player.o
-                0x00000000d0002990                SetSongLength
+                0x00000000d0000de8       0x2c compiled/project/player.o
+                0x00000000d0000de8                SetSongLength
  .text.doTrackerTicks
-                0x00000000d00029bc      0x1a4 compiled/project/player.o
-                0x00000000d00029bc                doTrackerTicks
+                0x00000000d0000e14      0x1a4 compiled/project/player.o
+                0x00000000d0000e14                doTrackerTicks
  .text.processRow
-                0x00000000d0002b60      0x33c compiled/project/player.o
-                0x00000000d0002b60                processRow
+                0x00000000d0000fb8      0x33c compiled/project/player.o
+                0x00000000d0000fb8                processRow
  .text.RestartPlayer
-                0x00000000d0002e9c       0x80 compiled/project/player.o
-                0x00000000d0002e9c                RestartPlayer
+                0x00000000d00012f4       0x80 compiled/project/player.o
+                0x00000000d00012f4                RestartPlayer
  .text.PlayerCIA_ISR
-                0x00000000d0002f1c       0x58 compiled/project/player.o
-                0x00000000d0002f1c                PlayerCIA_ISR
+                0x00000000d0001374       0x58 compiled/project/player.o
+                0x00000000d0001374                PlayerCIA_ISR
  .text.initKFMSong
-                0x00000000d0002f74       0xac compiled/project/player.o
-                0x00000000d0002f74                initKFMSong
+                0x00000000d00013cc       0xac compiled/project/player.o
+                0x00000000d00013cc                initKFMSong
  .text.PlaceNote
-                0x00000000d0003020       0x80 compiled/project/player.o
-                0x00000000d0003020                PlaceNote
+                0x00000000d0001478       0x80 compiled/project/player.o
+                0x00000000d0001478                PlaceNote
  .text.PlaceCommand
-                0x00000000d00030a0       0x68 compiled/project/player.o
-                0x00000000d00030a0                PlaceCommand
+                0x00000000d00014f8       0x68 compiled/project/player.o
+                0x00000000d00014f8                PlaceCommand
  .text.PlaceParam
-                0x00000000d0003108       0x84 compiled/project/player.o
-                0x00000000d0003108                PlaceParam
+                0x00000000d0001560       0x84 compiled/project/player.o
+                0x00000000d0001560                PlaceParam
  .text.PlaceSampleID
-                0x00000000d000318c       0x90 compiled/project/player.o
-                0x00000000d000318c                PlaceSampleID
+                0x00000000d00015e4       0x90 compiled/project/player.o
+                0x00000000d00015e4                PlaceSampleID
  .text.PlayNoteKeyDown
-                0x00000000d000321c      0x134 compiled/project/player.o
-                0x00000000d000321c                PlayNoteKeyDown
+                0x00000000d0001674      0x134 compiled/project/player.o
+                0x00000000d0001674                PlayNoteKeyDown
  .text.setupTestSynths
-                0x00000000d0003350       0x9c compiled/project/synthmaster.o
-                0x00000000d0003350                setupTestSynths
+                0x00000000d00017a8       0x9c compiled/project/synthmaster.o
+                0x00000000d00017a8                setupTestSynths
  .text.RenderTrackerBackGnd
-                0x00000000d00033ec      0x118 compiled/project/trackertracks.o
-                0x00000000d00033ec                RenderTrackerBackGnd
+                0x00000000d0001844      0x118 compiled/project/trackertracks.o
+                0x00000000d0001844                RenderTrackerBackGnd
  .text.MovePatternRow
-                0x00000000d0003504       0x30 compiled/project/trackertracks.o
-                0x00000000d0003504                MovePatternRow
+                0x00000000d000195c       0x30 compiled/project/trackertracks.o
+                0x00000000d000195c                MovePatternRow
  .text.RenderTracker
-                0x00000000d0003534      0x2fc compiled/project/trackertracks.o
-                0x00000000d0003534                RenderTracker
+                0x00000000d000198c      0x2fc compiled/project/trackertracks.o
+                0x00000000d000198c                RenderTracker
  .text.RenderConfirmYESNObox
-                0x00000000d0003830       0x7c compiled/project/trackertracks.o
-                0x00000000d0003830                RenderConfirmYESNObox
+                0x00000000d0001c88       0x7c compiled/project/trackertracks.o
+                0x00000000d0001c88                RenderConfirmYESNObox
+ .text.LoadTestSong
+                0x00000000d0001d04      0x2b0 compiled/project/fileformat.o
+                0x00000000d0001d04                LoadTestSong
+ .text.SaveTestSong
+                0x00000000d0001fb4      0x280 compiled/project/fileformat.o
+                0x00000000d0001fb4                SaveTestSong
+ .text.KB_ISR2  0x00000000d0002234      0x408 compiled/project/main.o
+                0x00000000d0002234                KB_ISR2
+ .text.startup.main
+                0x00000000d000263c     0x1270 compiled/project/main.o
+                0x00000000d000263c                main
  .text.uiFileText
                 0x00000000d00038ac       0x20 compiled/project/trackerui.o
                 0x00000000d00038ac                uiFileText
@@ -876,65 +876,65 @@ LOAD /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
  .rodata.hid_keymap_uk_shift
                 0x00000000d00066fc       0x80 compiled/api_kbsupport.o
                 0x00000000d00066fc                hid_keymap_uk_shift
- .rodata.LoadTestSong.str1.4
-                0x00000000d000677c      0x12e compiled/project/fileformat.o
- *fill*         0x00000000d00068aa        0x2 
- .rodata.SaveTestSong.str1.4
-                0x00000000d00068ac       0x91 compiled/project/fileformat.o
- *fill*         0x00000000d000693d        0x3 
  .rodata.FileRequestFileStringUpdater.part.0.str1.4
-                0x00000000d0006940       0x3e compiled/project/filerequest.o
- *fill*         0x00000000d000697e        0x2 
+                0x00000000d000677c       0x3e compiled/project/filerequest.o
+ *fill*         0x00000000d00067ba        0x2 
  .rodata.FileListedSelect.str1.4
-                0x00000000d0006980       0x19 compiled/project/filerequest.o
- *fill*         0x00000000d0006999        0x3 
+                0x00000000d00067bc       0x19 compiled/project/filerequest.o
+ *fill*         0x00000000d00067d5        0x3 
  .rodata.ShowFileRequest.str1.4
-                0x00000000d000699c       0x2f compiled/project/filerequest.o
+                0x00000000d00067d8       0x2f compiled/project/filerequest.o
                                          0x33 (size before relaxing)
- *fill*         0x00000000d00069cb        0x1 
+ *fill*         0x00000000d0006807        0x1 
  .rodata.CheckDirectorySelect.str1.4
-                0x00000000d00069cc       0x1a compiled/project/filerequest.o
- *fill*         0x00000000d00069e6        0x2 
+                0x00000000d0006808       0x1a compiled/project/filerequest.o
+ *fill*         0x00000000d0006822        0x2 
  .rodata.SaveKMD.str1.4
-                0x00000000d00069e8       0x1b compiled/project/filerequest.o
- *fill*         0x00000000d0006a03        0x1 
+                0x00000000d0006824       0x1b compiled/project/filerequest.o
+ *fill*         0x00000000d000683f        0x1 
  .rodata.LoadKMD.str1.4
-                0x00000000d0006a04       0x1b compiled/project/filerequest.o
- *fill*         0x00000000d0006a1f        0x1 
- .rodata.font   0x00000000d0006a20      0x800 compiled/project/font.o
-                0x00000000d0006a20                font
- .rodata.main.str1.4
-                0x00000000d0007220      0x113 compiled/project/main.o
-                                        0x123 (size before relaxing)
- *fill*         0x00000000d0007333        0x1 
- .rodata        0x00000000d0007334        0x4 compiled/project/main.o
- .rodata.clut32
-                0x00000000d0007338      0x400 compiled/project/main.o
-                0x00000000d0007338                clut32
+                0x00000000d0006840       0x1b compiled/project/filerequest.o
+ *fill*         0x00000000d000685b        0x1 
  .rodata.getNoteLabel.str1.4
-                0x00000000d0007738        0xc compiled/project/player.o
+                0x00000000d000685c        0xc compiled/project/player.o
  .rodata.initNoteLabels.str1.4
-                0x00000000d0007744        0xe compiled/project/player.o
- *fill*         0x00000000d0007752        0x2 
+                0x00000000d0006868        0xe compiled/project/player.o
+ *fill*         0x00000000d0006876        0x2 
  .rodata.processRow.str1.4
-                0x00000000d0007754       0x24 compiled/project/player.o
+                0x00000000d0006878       0x24 compiled/project/player.o
  .rodata.str1.4
-                0x00000000d0007778       0x2e compiled/project/player.o
- *fill*         0x00000000d00077a6        0x2 
+                0x00000000d000689c       0x2e compiled/project/player.o
+ *fill*         0x00000000d00068ca        0x2 
  .rodata.noteFrequencies
-                0x00000000d00077a8       0x90 compiled/project/player.o
-                0x00000000d00077a8                noteFrequencies
+                0x00000000d00068cc       0x90 compiled/project/player.o
+                0x00000000d00068cc                noteFrequencies
  .rodata.RenderTracker.str1.4
-                0x00000000d0007838       0x14 compiled/project/trackertracks.o
+                0x00000000d000695c       0x14 compiled/project/trackertracks.o
  .rodata.RenderConfirmYESNObox.str1.4
-                0x00000000d000784c        0x6 compiled/project/trackertracks.o
- *fill*         0x00000000d0007852        0x2 
+                0x00000000d0006970        0x6 compiled/project/trackertracks.o
+ *fill*         0x00000000d0006976        0x2 
  .rodata.editColumnChannelCoords
-                0x00000000d0007854       0x10 compiled/project/trackertracks.o
-                0x00000000d0007854                editColumnChannelCoords
+                0x00000000d0006978       0x10 compiled/project/trackertracks.o
+                0x00000000d0006978                editColumnChannelCoords
  .rodata.editColumnXCoords
-                0x00000000d0007864       0x60 compiled/project/trackertracks.o
-                0x00000000d0007864                editColumnXCoords
+                0x00000000d0006988       0x60 compiled/project/trackertracks.o
+                0x00000000d0006988                editColumnXCoords
+ .rodata.font   0x00000000d00069e8      0x800 compiled/project/font.o
+                0x00000000d00069e8                font
+ .rodata.LoadTestSong.str1.4
+                0x00000000d00071e8      0x12e compiled/project/fileformat.o
+ *fill*         0x00000000d0007316        0x2 
+ .rodata.SaveTestSong.str1.4
+                0x00000000d0007318       0x91 compiled/project/fileformat.o
+ *fill*         0x00000000d00073a9        0x3 
+ .rodata.main.str1.4
+                0x00000000d00073ac      0x113 compiled/project/main.o
+                                        0x123 (size before relaxing)
+ *fill*         0x00000000d00074bf        0x1 
+ .rodata        0x00000000d00074c0        0x4 compiled/project/main.o
+ .rodata.clut32
+                0x00000000d00074c4      0x400 compiled/project/main.o
+                0x00000000d00074c4                clut32
  .rodata.uiTextDrawNumber.str1.4
                 0x00000000d00078c4        0x5 compiled/project/trackerui.o
  *fill*         0x00000000d00078c9        0x3 
@@ -1029,7 +1029,7 @@ LOAD /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
 .igot.plt       0x00000000d000effc        0x0
  .igot.plt      0x00000000d000effc        0x0 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-impure.o)
 
-.bss            0x00000000d000f000   0x243b1d
+.bss            0x00000000d000f000   0x243b29
  *(.bss*)
  .bss.keyPressBuffer
                 0x00000000d000f000        0x8 compiled/api_kbsupport.o
@@ -1062,37 +1062,37 @@ LOAD /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
  .bss.itemSelected
                 0x00000000d000f01c        0x2 compiled/project/filerequest.o
                 0x00000000d000f01c                itemSelected
- .bss.ExitKFMTracker
-                0x00000000d000f01e        0x1 compiled/project/main.o
- .bss.choice    0x00000000d000f01f        0x1 compiled/project/main.o
-                0x00000000d000f01f                choice
- .bss.cursorBlinkStat
-                0x00000000d000f020        0x1 compiled/project/main.o
-                0x00000000d000f020                cursorBlinkStat
- *fill*         0x00000000d000f021        0x3 
- .bss.cursorBlinkTmr
-                0x00000000d000f024        0x4 compiled/project/main.o
-                0x00000000d000f024                cursorBlinkTmr
- .bss.holdButtonID
-                0x00000000d000f028        0x4 compiled/project/main.o
-                0x00000000d000f028                holdButtonID
- .bss.holdTimer
-                0x00000000d000f02c        0x4 compiled/project/main.o
-                0x00000000d000f02c                holdTimer
- .bss.holdTiming
-                0x00000000d000f030        0x1 compiled/project/main.o
-                0x00000000d000f030                holdTiming
- *fill*         0x00000000d000f031        0x3 
- .bss.tmr1      0x00000000d000f034        0x4 compiled/project/main.o
-                0x00000000d000f034                tmr1
  .bss.bKFMPlayer_PlayPattern
-                0x00000000d000f038        0x1 compiled/project/player.o
-                0x00000000d000f038                bKFMPlayer_PlayPattern
+                0x00000000d000f01e        0x1 compiled/project/player.o
+                0x00000000d000f01e                bKFMPlayer_PlayPattern
  .bss.bKFMPlayer_Playing
-                0x00000000d000f039        0x1 compiled/project/player.o
-                0x00000000d000f039                bKFMPlayer_Playing
- .bss.focusOn   0x00000000d000f03a        0x1 compiled/project/trackertracks.o
- .bss.focusTmr  0x00000000d000f03b        0x1 compiled/project/trackertracks.o
+                0x00000000d000f01f        0x1 compiled/project/player.o
+                0x00000000d000f01f                bKFMPlayer_Playing
+ .bss.focusOn   0x00000000d000f020        0x1 compiled/project/trackertracks.o
+ .bss.focusTmr  0x00000000d000f021        0x1 compiled/project/trackertracks.o
+ .bss.ExitKFMTracker
+                0x00000000d000f022        0x1 compiled/project/main.o
+ .bss.choice    0x00000000d000f023        0x1 compiled/project/main.o
+                0x00000000d000f023                choice
+ .bss.cursorBlinkStat
+                0x00000000d000f024        0x1 compiled/project/main.o
+                0x00000000d000f024                cursorBlinkStat
+ *fill*         0x00000000d000f025        0x3 
+ .bss.cursorBlinkTmr
+                0x00000000d000f028        0x4 compiled/project/main.o
+                0x00000000d000f028                cursorBlinkTmr
+ .bss.holdButtonID
+                0x00000000d000f02c        0x4 compiled/project/main.o
+                0x00000000d000f02c                holdButtonID
+ .bss.holdTimer
+                0x00000000d000f030        0x4 compiled/project/main.o
+                0x00000000d000f030                holdTimer
+ .bss.holdTiming
+                0x00000000d000f034        0x1 compiled/project/main.o
+                0x00000000d000f034                holdTiming
+ *fill*         0x00000000d000f035        0x3 
+ .bss.tmr1      0x00000000d000f038        0x4 compiled/project/main.o
+                0x00000000d000f038                tmr1
  .bss.debouncerSm
                 0x00000000d000f03c        0x4 compiled/project/trackerui.o
                 0x00000000d000f03c                debouncerSm
@@ -1132,53 +1132,54 @@ LOAD /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
                 0x00000000d000f0a8                bgmem
                 0x00000000d000f0ac                original_drawbuffer
                 0x00000000d000f0b0                original_backlayerbuffer
- COMMON         0x00000000d000f0b4       0x9a compiled/project/fileformat.o
-                0x00000000d000f0b4                temp8
-                0x00000000d000f0b8                temp32
-                0x00000000d000f0bc                KFMFile
- *fill*         0x00000000d000f14e        0x2 
- COMMON         0x00000000d000f150    0x22118 compiled/project/filerequest.o
-                0x00000000d000f150                fileRequest
-                0x00000000d0020150                finfo
-                0x00000000d00201e8                fileList
-                0x00000000d00311e8                directorySelect
-                0x00000000d0031228                fileNameString
- COMMON         0x00000000d0031268       0x10 compiled/project/main.o
-                0x00000000d0031268                original_backBuffers
-                0x00000000d003126c                keyReportRaw
-                0x00000000d0031274                buttonHit
- *fill*         0x00000000d0031278        0x8 
- COMMON         0x00000000d0031280   0x220584 compiled/project/player.o
-                0x00000000d0031280                KFMSong
-                0x00000000d00516b0                timeDD
-                0x00000000d00516b4                lastRowStats
-                0x00000000d00516d4                msTime
-                0x00000000d00516e0                sampleRamSpace
-                0x00000000d02516e0                noteLabels
-                0x00000000d0251800                timeDR
- COMMON         0x00000000d0251804     0x1309 compiled/project/trackerui.o
-                0x00000000d0251804                llmb
-                0x00000000d0251808                gbuttons
-                0x00000000d0252b08                ui_events
-                0x00000000d0252b0c                lmb
- *fill*         0x00000000d0252b0d        0x3 
- COMMON         0x00000000d0252b10        0x4 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-reent.o)
-                0x00000000d0252b10                errno
- COMMON         0x00000000d0252b14        0x9 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
-                0x00000000d0252b14                __lock___atexit_recursive_mutex
-                0x00000000d0252b15                __lock___arc4random_mutex
-                0x00000000d0252b16                __lock___env_recursive_mutex
-                0x00000000d0252b17                __lock___sinit_recursive_mutex
-                0x00000000d0252b18                __lock___malloc_recursive_mutex
-                0x00000000d0252b19                __lock___at_quick_exit_mutex
-                0x00000000d0252b1a                __lock___dd_hash_mutex
-                0x00000000d0252b1b                __lock___tz_mutex
-                0x00000000d0252b1c                __lock___sfp_recursive_mutex
+ COMMON         0x00000000d000f0b4    0x2211c compiled/project/filerequest.o
+                0x00000000d000f0b4                fileRequest
+                0x00000000d00200b4                finfo
+                0x00000000d002014c                fileList
+                0x00000000d003114c                CONFIGSCREENMODE
+                0x00000000d0031150                directorySelect
+                0x00000000d0031190                fileNameString
+ *fill*         0x00000000d00311d0       0x10 
+ COMMON         0x00000000d00311e0   0x220584 compiled/project/player.o
+                0x00000000d00311e0                KFMSong
+                0x00000000d0051610                timeDD
+                0x00000000d0051614                lastRowStats
+                0x00000000d0051634                msTime
+                0x00000000d0051640                sampleRamSpace
+                0x00000000d0251640                noteLabels
+                0x00000000d0251760                timeDR
+ COMMON         0x00000000d0251764       0x9a compiled/project/fileformat.o
+                0x00000000d0251764                temp8
+                0x00000000d0251768                temp32
+                0x00000000d025176c                KFMFile
+ *fill*         0x00000000d02517fe        0x2 
+ COMMON         0x00000000d0251800       0x10 compiled/project/main.o
+                0x00000000d0251800                original_backBuffers
+                0x00000000d0251804                keyReportRaw
+                0x00000000d025180c                buttonHit
+ COMMON         0x00000000d0251810     0x1309 compiled/project/trackerui.o
+                0x00000000d0251810                llmb
+                0x00000000d0251814                gbuttons
+                0x00000000d0252b14                ui_events
+                0x00000000d0252b18                lmb
+ *fill*         0x00000000d0252b19        0x3 
+ COMMON         0x00000000d0252b1c        0x4 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-reent.o)
+                0x00000000d0252b1c                errno
+ COMMON         0x00000000d0252b20        0x9 /opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
+                0x00000000d0252b20                __lock___atexit_recursive_mutex
+                0x00000000d0252b21                __lock___arc4random_mutex
+                0x00000000d0252b22                __lock___env_recursive_mutex
+                0x00000000d0252b23                __lock___sinit_recursive_mutex
+                0x00000000d0252b24                __lock___malloc_recursive_mutex
+                0x00000000d0252b25                __lock___at_quick_exit_mutex
+                0x00000000d0252b26                __lock___dd_hash_mutex
+                0x00000000d0252b27                __lock___tz_mutex
+                0x00000000d0252b28                __lock___sfp_recursive_mutex
 
 .rodata
  *(.rodata*)
-                0x00000000d0252b1d                _end = .
-                0x00000000d0252b1d                __app_end = .
+                0x00000000d0252b29                _end = .
+                0x00000000d0252b29                __app_end = .
 OUTPUT(compiled/applet.elf elf32-littlearm)
 LOAD linker stubs
 
@@ -1199,19 +1200,19 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000010a       0x2e compiled/syscalls.o
  .ARM.attributes
-                0x0000000000000138       0x2e compiled/project/fileformat.o
+                0x0000000000000138       0x2e compiled/project/filerequest.o
  .ARM.attributes
-                0x0000000000000166       0x2e compiled/project/filerequest.o
+                0x0000000000000166       0x2e compiled/project/player.o
  .ARM.attributes
-                0x0000000000000194       0x33 compiled/project/font.o
+                0x0000000000000194       0x2e compiled/project/synthmaster.o
  .ARM.attributes
-                0x00000000000001c7       0x2e compiled/project/main.o
+                0x00000000000001c2       0x2e compiled/project/trackertracks.o
  .ARM.attributes
-                0x00000000000001f5       0x2e compiled/project/player.o
+                0x00000000000001f0       0x33 compiled/project/font.o
  .ARM.attributes
-                0x0000000000000223       0x2e compiled/project/synthmaster.o
+                0x0000000000000223       0x2e compiled/project/fileformat.o
  .ARM.attributes
-                0x0000000000000251       0x2e compiled/project/trackertracks.o
+                0x0000000000000251       0x2e compiled/project/main.o
  .ARM.attributes
                 0x000000000000027f       0x2e compiled/project/trackerui.o
  .ARM.attributes
@@ -1265,13 +1266,13 @@ LOAD linker stubs
  .comment       0x0000000000000053       0x54 compiled/api_kfm.o
  .comment       0x0000000000000053       0x54 compiled/apis.o
  .comment       0x0000000000000053       0x54 compiled/syscalls.o
- .comment       0x0000000000000053       0x54 compiled/project/fileformat.o
  .comment       0x0000000000000053       0x54 compiled/project/filerequest.o
- .comment       0x0000000000000053       0x54 compiled/project/font.o
- .comment       0x0000000000000053       0x54 compiled/project/main.o
  .comment       0x0000000000000053       0x54 compiled/project/player.o
  .comment       0x0000000000000053       0x54 compiled/project/synthmaster.o
  .comment       0x0000000000000053       0x54 compiled/project/trackertracks.o
+ .comment       0x0000000000000053       0x54 compiled/project/font.o
+ .comment       0x0000000000000053       0x54 compiled/project/fileformat.o
+ .comment       0x0000000000000053       0x54 compiled/project/main.o
  .comment       0x0000000000000053       0x54 compiled/project/trackerui.o
 
 .debug_frame    0x0000000000000000      0x580
