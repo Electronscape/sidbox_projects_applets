@@ -50,7 +50,7 @@ void setFont(){
 extern uint32_t ui_events;
 
 uint8_t last_keyReport[8];
-uint8_t keyReportRaw[8];
+uint8_t keyReportRaw[8]; 
 
 uint8_t GetKeyIn(uint8_t keycode){
 	uint8_t keyindex;
