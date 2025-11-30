@@ -1,0 +1,20 @@
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\_coreapi_\apis.c
+Compiling ..\_coreapi_\api_kbsupport.c
+Compiling ..\_coreapi_\api_kfm.c
+Compiling ..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\$basicappletSettup\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+    529	      4	     16	    549	    225	compiled/applet.elf
+
+
+d0000010 T applet_entry
+d00000a8 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 540 bytes

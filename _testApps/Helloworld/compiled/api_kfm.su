@@ -1,0 +1,3 @@
+api_kfm.c:93:6:uploadKFMCode	40	static
+api_kfm.c:112:6:EnableKFM	0	static
+api_kfm.c:118:6:DisableKFM	0	static

@@ -1,0 +1,8 @@
+gamenegine.c:89:6:pixel	4	static
+gamenegine.c:96:6:scanKeys	8	static
+gamenegine.c:106:6:movePlayer	24	static
+gamenegine.c:126:6:initEngine	48	static
+gamenegine.c:167:6:clipBehindPlayer	8	static
+gamenegine.c:178:6:drawWall	64	static
+gamenegine.c:213:5:dist	0	static
+gamenegine.c:218:6:draw3D	2072	static

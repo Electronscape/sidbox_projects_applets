@@ -1,0 +1,4 @@
+main.c:189:5:extract_archive.part.0	448	static
+main.c:40:5:create_archive	232	static
+main.c:189:5:extract_archive	16	static
+main.c:330:5:main	32	static

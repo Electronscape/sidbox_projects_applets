@@ -1,0 +1,2 @@
+MOUTH_PATH	  = /media/ben/16GDEM/
+APPLET_FOLDER = $(MOUTH_PATH)/applets

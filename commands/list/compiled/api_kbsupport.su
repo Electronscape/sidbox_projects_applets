@@ -1,0 +1,9 @@
+api_kbsupport.c:26:6:push_key	4	static
+api_kbsupport.c:35:9:pop_key	0	static
+api_kbsupport.c:42:6:flush_keys	0	static
+api_kbsupport.c:125:6:is_valid_filename_char	0	static
+api_kbsupport.c:147:13:KB_ISR	56	static
+api_kbsupport.c:214:16:GetKeyIn	0	static
+api_kbsupport.c:223:6:GetKeyInBufferTest	32	static
+api_kbsupport.c:232:16:GetKeyInBuffer	0	static
+api_kbsupport.c:236:16:GetKeyAsciiInBuffer	0	static

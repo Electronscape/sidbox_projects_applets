@@ -1,0 +1,6 @@
+main.c:15:6:normalize_path	8	static
+main.c:23:6:join_path	32	static
+main.c:52:5:wildcard_match	24	static
+main.c:73:5:strcasestr_custom	24	static
+main.c:89:5:wildcard_match_case_insensitive	24	static
+main.c:112:5:main	131784	static

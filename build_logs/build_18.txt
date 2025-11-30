@@ -1,0 +1,26 @@
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\game.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\main.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\backdrop.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\bigback.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\reboot.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\sprites.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\titlescr.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+  25664	    112	 786972	 812748	  c66cc	compiled/applet.elf
+
+
+d0078a50 T applet_entry
+d007c22c T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 25,780 bytes

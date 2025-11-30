@@ -1,0 +1,14 @@
+STV XV0, 127
+att 2
+dcy 21
+sus 80
+rel 8
+GTE 3
+loop:
+nop 2
+FRA 128, 0x1
+ARP 0x30, 1
+EFF 0x01
+nop 10
+GTE 6
+jmp loop

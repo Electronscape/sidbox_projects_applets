@@ -1,0 +1,22 @@
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\dungeon1\project\gamenegine.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\dungeon1\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+   8396	    420	  62216	  71032	  11578	compiled/applet.elf
+
+
+d0000010 T applet_entry
+d0001a40 T main
+
+
+---- COMPILE COMPLETED ----
+
+Could Not Find W:\Work\Programming\SidboxApplets\_GAMES\dungeon1\valhoola.app
+The system cannot find the drive specified.
+Size of applet.app is 8,820 bytes

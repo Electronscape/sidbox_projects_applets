@@ -1,0 +1,3 @@
+main.c:17:6:print_hex_linecolour	32	static
+main.c:48:6:print_hex_line	160	static
+main.c:76:5:main	312	static

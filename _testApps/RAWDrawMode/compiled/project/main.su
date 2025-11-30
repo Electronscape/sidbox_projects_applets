@@ -1,0 +1,9 @@
+main.c:35:6:ShowBuffer	0	static
+main.c:79:6:updateHue	0	static
+main.c:85:7:wrapHue	0	static
+main.c:93:7:fmodf_custom	0	static
+main.c:101:10:HSVtoRGB565	16	static
+main.c:123:10:fadeColor	0	static
+main.c:140:6:initMystify	24	static
+main.c:154:6:stepMystify	112	static
+main.c:227:5:main	40	static

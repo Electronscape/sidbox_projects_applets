@@ -1,0 +1,21 @@
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\merlin\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+   4591	    113	     49	   4753	   1291	compiled/applet.elf
+
+
+d0000010 T applet_entry
+d00002d0 T main
+
+
+---- COMPILE COMPLETED ----
+
+Could Not Find W:\Work\Programming\SidboxApplets\_GAMES\merlin\valhoola.app
+The system cannot find the drive specified.
+Size of applet.app is 4,709 bytes

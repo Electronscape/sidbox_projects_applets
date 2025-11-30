@@ -1,0 +1,14 @@
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\render_front_only_test\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes

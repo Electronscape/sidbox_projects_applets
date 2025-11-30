@@ -1,0 +1,14 @@
+main.c:26:6:init_clut	12	static
+main.c:77:6:normalize	8	static
+main.c:90:6:generate_subdivided_cube	280	static
+main.c:142:5:project_point	16	static
+main.c:152:5:cross_z	24	static
+main.c:158:6:draw_triangle	56	static
+main.c:180:6:rotate	48	static
+main.c:198:6:interp	24	static
+main.c:207:5:is_quad_offscreen	12	static
+main.c:219:6:draw_rotating_checkerboard	144	static
+main.c:286:6:update_vertices	36	static
+main.c:294:6:update_rotations	72	static
+main.c:300:6:scroll_background_wave	24	static
+main.c:400:5:main	1496	static

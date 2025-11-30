@@ -1,0 +1,6 @@
+lzss.c:23:8:pack_lzss.part.0	72	static
+lzss.c:90:8:depack_lzss.part.0	64	static
+lzss.c:23:8:pack_lzss	4	static
+lzss.c:90:8:depack_lzss	0	static
+lzss.c:130:5:lzss_compress	16	static
+lzss.c:144:8:lzss_decompress_chunk	32	dynamic

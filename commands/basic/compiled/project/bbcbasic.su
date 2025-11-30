@@ -1,0 +1,17 @@
+bbcbasic.c:322:5:compare_lines	0	static
+bbcbasic.c:43:5:getPrintrowvline	0	static
+bbcbasic.c:47:6:CLS	16	static
+bbcbasic.c:66:6:print	48	static
+bbcbasic.c:105:5:find_line	4	static
+bbcbasic.c:119:6:skip_ws	0	static
+bbcbasic.c:123:5:parse_number	8	static
+bbcbasic.c:147:5:parse_term	32	static
+bbcbasic.c:136:5:parse_factor	16	static
+bbcbasic.c:159:5:parse_expr	16	static
+bbcbasic.c:176:5:getProgramRunning	0	static
+bbcbasic.c:180:6:strtoupper	0	static
+bbcbasic.c:304:5:getIsProgramRunning	0	static
+bbcbasic.c:307:6:run_program	4	static
+bbcbasic.c:313:6:break_program	88	static
+bbcbasic.c:328:6:interpret_line	176	static
+bbcbasic.c:187:5:step_program	176	static

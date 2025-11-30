@@ -1,0 +1,503 @@
+--- Build Summary --- 
+ 
+[build_1] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\_coreapi_\apis.c
+Compiling ..\_coreapi_\api_kbsupport.c
+Compiling ..\_coreapi_\api_kfm.c
+Compiling ..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\$basicappletSettup\project\main.c
+ 
+[build_10] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\ls\project\main.c
+ 
+[build_11] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\mkdir\project\main.c
+ 
+[build_12] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\rename\project\main.c
+ 
+[build_13] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\rmdir\project\main.c
+ 
+[build_14] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\type\project\main.c
+ 
+[build_15] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\debugtest.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\fileformat.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\filerequest.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\font.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\main.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\patternbank.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\player.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\synthmaster.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\trackertracks.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\trackerui.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_16] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\dungeon1\project\gamenegine.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\dungeon1\project\main.c
+ 
+[build_17] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\merlin\project\main.c
+ 
+[build_18] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\game.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\main.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\backdrop.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\bigback.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\reboot.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\sprites.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\Sturdust\project\resources\titlescr.c
+ 
+[build_19] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\_GAMES\vulhoola\project\main.c
+ 
+[build_2] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\basic\project\bbcbasic.c
+Compiling W:\Work\Programming\SidboxApplets\commands\basic\project\kbsupport.c
+Compiling W:\Work\Programming\SidboxApplets\commands\basic\project\main.c
+ 
+[build_20] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\3dcubetest\project\main.c
+ 
+[build_21] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\3DPolyWorldTest\project\engine3d.c
+Compiling W:\Work\Programming\SidboxApplets\_testApps\3DPolyWorldTest\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+ 
+[build_22] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\AmigaDartsDemo\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+ 
+[build_23] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\BasicDrawObjects\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+ 
+[build_24] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\BoingBallDemo\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+ 
+[build_25] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\clock\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+ 
+[build_26] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\CoopOS\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_27] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\copyScreenMem\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+Could Not Find W:\Work\Programming\SidboxApplets\_testApps\copyScreenMem\clock.app
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_28] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\DualPlayFieldTest\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_29] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\Helloworld\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_3] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\chmod\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+    496	      0	      0	    496	    1f0	compiled/applet.elf
+
+
+d05e0010 T applet_entry
+d05e0014 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 500 bytes
+ 
+[build_30] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\ISRTest\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_31] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\loadscreener\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_32] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\plasmafire\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_33] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\RAWDrawMode\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_34] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\render_front_only_test\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_35] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_testApps\SynthTester\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes
+ 
+[build_4] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\copy\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+   3150	    100	     25	   3275	    ccb	compiled/applet.elf
+
+
+d05e0010 T applet_entry
+d05e0038 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 3,256 bytes
+ 
+[build_5] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\crunch\project\lzss.c
+Compiling W:\Work\Programming\SidboxApplets\commands\crunch\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+   6870	    100	4259873	4266843	 411b5b	compiled/applet.elf
+
+
+d05e0010 T applet_entry
+d05e0af8 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 6,976 bytes
+ 
+[build_6] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\delete\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+    752	      0	      0	    752	    2f0	compiled/applet.elf
+
+
+d05e0010 T applet_entry
+d05e0014 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 756 bytes
+ 
+[build_7] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\find\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+   1987	      0	      0	   1987	    7c3	compiled/applet.elf
+
+
+d05e0010 T applet_entry
+d05e01b0 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 1,992 bytes
+ 
+[build_8] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\join\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+   3439	    100	     25	   3564	    dec	compiled/applet.elf
+
+
+d05e0010 T applet_entry
+d05e0014 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 3,544 bytes
+ 
+[build_9] 
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling ..\..\_coreapi_\apis.c
+Compiling ..\..\_coreapi_\api_kbsupport.c
+Compiling ..\..\_coreapi_\api_kfm.c
+Compiling ..\..\_coreapi_\syscalls.c
+Compiling W:\Work\Programming\SidboxApplets\commands\list\project\main.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+   1105	      0	      0	   1105	    451	compiled/applet.elf
+
+
+d05e0010 T applet_entry
+d05e0188 T main
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 1,112 bytes

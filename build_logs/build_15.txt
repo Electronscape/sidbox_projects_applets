@@ -1,0 +1,23 @@
+BEGIN COMPILING APPLET FOR SIDBOX!! (YEY!!)
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\debugtest.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\fileformat.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\filerequest.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\font.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\main.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\patternbank.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\player.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\synthmaster.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\trackertracks.c
+Compiling W:\Work\Programming\SidboxApplets\_Applications\KFMTracker\project\trackerui.c
+
+
+   text	   data	    bss	    dec	    hex	filename
+      8	      0	      0	      8	      8	compiled/applet.elf
+
+
+
+
+---- COMPILE COMPLETED ----
+
+The system cannot find the drive specified.
+Size of applet.app is 8 bytes

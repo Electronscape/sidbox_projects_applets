@@ -1,0 +1,4 @@
+trackertracks.c:61:6:RenderTrackerBackGnd	40	static
+trackertracks.c:99:6:MovePatternRow	0	static
+trackertracks.c:119:6:RenderTracker	88	static
+trackertracks.c:300:5:RenderConfirmYESNObox	24	static

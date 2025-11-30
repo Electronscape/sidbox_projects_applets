@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "_coreapi_",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/../../_coreapi_"
+      ],
+      //"intelliSenseMode": "gcc-arm",   // or "linux-gcc-arm", depending on your setup
+      //"compilerPath": "C:/ST/STM32CubeIDE_1.6.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924/tools/bin/arm-none-eabi-gcc.exe", // or your actual cross compiler
+      "defines": [],
+      "intelliSenseMode": "linux-gcc-arm", // depending on your setup
+      "compilerPath": "/opt/st/stm32cubeide_1.6.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin/arm-none-eabi-gcc", // or your actual cross compiler", // or your actual cross compiler
+      "cStandard": "c99",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

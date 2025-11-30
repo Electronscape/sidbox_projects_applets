@@ -1,0 +1,24 @@
+ATT 8
+DCY 20
+SUS 80
+REL 2
+GTE 3
+STV XV0, 10
+_start:
+STV XV1, 8
+_reset: 
+nop
+_loop: 
+ADD XV0, XV1
+PWM XV0
+NOP 2
+CMP XV0 8
+JIL _goforward
+CMP XV0 62
+JIL _loop
+STV XV1, -2
+JMP _loop
+_goforward:
+STV XV1, 2
+JMP _reset
+END

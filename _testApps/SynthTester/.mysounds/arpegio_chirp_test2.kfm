@@ -1,0 +1,9 @@
+STV XV0, 127
+GTO 1
+loop:
+nop 2
+FRA 128, 0x1
+ARP 0x30, 3
+EFF 0x01
+GTO 0
+jmp loop

@@ -1,0 +1,4 @@
+main.c:42:6:renderMouse	24	static
+main.c:54:6:ShowBuffer	0	static
+main.c:64:6:clear_screen	8	static
+main.c:73:5:main	40	static
