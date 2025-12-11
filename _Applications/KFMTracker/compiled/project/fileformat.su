@@ -1,3 +1,0 @@
-fileformat.c:18:6:InitFileContainer	0	static
-fileformat.c:25:5:LoadTestSong	440	static
-fileformat.c:166:6:SaveTestSong	432	static
